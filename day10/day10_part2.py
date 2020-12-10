@@ -18,12 +18,12 @@ while input_data:
         results.append(len(group))
 
 total_num = 1
-for item in results:
-    if item == 3:
+for group_len in results:
+    if group_len == 3:
         total_num *= 2
-    if item == 4:
+    if group_len == 4:
         total_num *= 4
-    if item == 5:
+    if group_len == 5:
         total_num *= 7
 
 print(f"Part 2 - puzzle answer is {total_num}")
