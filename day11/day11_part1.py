@@ -1,22 +1,6 @@
 with open("day11_input.txt", encoding="utf-8", mode="r") as f:
     input_data = f.readlines()
 
-#
-# input_data = """
-# L.LL.LL.LL
-# LLLLLLL.LL
-# L.L.L..L..
-# LLLL.LL.LL
-# L.LL.LL.LL
-# L.LLLLL.LL
-# ..L.L.....
-# LLLLLLLLLL
-# L.LLLLLL.L
-# L.LLLLL.LL
-# """
-#
-# input_data = input_data.strip().split("\n")
-
 
 class Game():
     def __init__(self, game_field):
