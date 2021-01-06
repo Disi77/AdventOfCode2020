@@ -22,4 +22,4 @@ for turn in range(start_turn, end_turn + 1):
     if len(numbers_dict[last]) > 2:
         numbers_dict[last].pop(0)
 
-print(f"THe 2020th number is {last}")
+print(f"THe 30,000,000th number is {last}")
